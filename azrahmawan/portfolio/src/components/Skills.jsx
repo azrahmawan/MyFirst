@@ -8,36 +8,38 @@ import {
 // Using text labels + color dots instead of brand icons to avoid import issues
 const SKILL_GROUPS = [
   {
-    category: 'Frontend',
+    category: 'Solar PV & Power Systems',
     icon: FiCode,
     emoji: '⚡',
     skills: [
-      { name: 'React',       level: 92, color: '#61dafb', dot: '#61dafb' },
-      { name: 'TypeScript',  level: 82, color: '#3178c6', dot: '#3178c6' },
-      { name: 'JavaScript',  level: 95, color: '#e8a020', dot: '#f7df1e' },
-      { name: 'Next.js',     level: 78, color: '#666',    dot: '#888'    },
-      { name: 'Vue.js',      level: 68, color: '#42b883', dot: '#42b883' },
+      { name: 'PLST System Design',       level: 92, color: '#61dafb', dot: '#61dafb' },
+      { name: 'Cable Configuration & Sizing',  level: 82, color: '#3178c6', dot: '#3178c6' },
+      { name: 'PLTS System Calculation',  level: 95, color: '#e8a020', dot: '#f7df1e' },
+      { name: 'Quality Control PLTS System',     level: 78, color: '#666',    dot: '#888'    },
+      { name: 'Document Control Support',      level: 90, color: '#42b883', dot: '#42b883' },
     ],
   },
   {
-    category: 'Styling & UI',
+    category: 'Bioenergy Sector',
     icon: FiLayers,
     emoji: '✨',
     skills: [
-      { name: 'Tailwind CSS',  level: 96, color: '#38bdf8', dot: '#38bdf8' },
-      { name: 'CSS3',          level: 94, color: '#2965f1', dot: '#2965f1' },
-      { name: 'HTML5',         level: 97, color: '#e34f26', dot: '#e34f26' },
-      { name: 'Framer Motion', level: 80, color: '#a020e8', dot: '#a020e8' },
-      { name: 'Figma',         level: 85, color: '#f24e1e', dot: '#f24e1e' },
+      { name: 'Automated Biogass Purifier',  level: 96, color: '#38bdf8', dot: '#38bdf8' },
+      { name: 'Flow Control - Biogass',          level: 94, color: '#2965f1', dot: '#2965f1' },
+      { name: 'Pressure Sensor Implementation',         level: 97, color: '#e34f26', dot: '#e34f26' },
+      { name: 'Temperature Sensor Implementation', level: 80, color: '#a020e8', dot: '#a020e8' },
+      { name: 'pH Metre Sensor Implementation',         level: 85, color: '#f24e1e', dot: '#f24e1e' },
     ],
   },
   {
-    category: 'Tools & Backend',
+    category: 'Automation & IoT',
     icon: FiTool,
     emoji: '🛠️',
     skills: [
-      { name: 'Node.js', level: 70, color: '#68a063', dot: '#68a063' },
-      { name: 'Git',     level: 90, color: '#f1502f', dot: '#f1502f' },
+      { name: 'Arduino Development -ESP32', level: 70, color: '#68a063', dot: '#68a063' },
+      { name: 'IoT Integration',     level: 90, color: '#f1502f', dot: '#f1502f' },
+      { name: 'Dashboard Monitoring & Control', level: 70, color: '#68a063', dot: '#cb691e' },
+      { name: 'Controll System',     level: 90, color: '#f1502f', dot: '#af0909' },
     ],
   },
 ]
@@ -101,7 +103,7 @@ export default function Skills() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="section-title mb-4"
         >
-          My toolkit
+          Experience On
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 16 }}
@@ -109,7 +111,7 @@ export default function Skills() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="section-subtitle max-w-xl mb-14"
         >
-          Carefully chosen tools that let me build things that are both beautiful and solid under the hood.
+          Experienced in using the following software :
         </motion.p>
 
         {/* Skill groups */}
@@ -147,7 +149,7 @@ export default function Skills() {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="mt-10 flex flex-wrap gap-2 justify-center"
         >
-          {['Vite', 'ESLint', 'Prettier', 'REST APIs', 'GraphQL', 'Zustand', 'React Query', 'Vitest', 'Storybook', 'Vercel', 'Netlify', 'pnpm'].map(tech => (
+          {['ArduinoIDE', 'Visual Studio', 'KIRO AI', 'Autocad2D', 'Oracle Primavera P6', 'Microsoft Office', 'Fritzing', 'Github Dekstop', 'Google Workspace', 'MQTT', 'Blynk IoT', 'Gemini'].map(tech => (
             <span key={tech} className="tag-pill">{tech}</span>
           ))}
         </motion.div>

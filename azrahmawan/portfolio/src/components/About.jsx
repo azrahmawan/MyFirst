@@ -10,9 +10,9 @@ const INTERESTS = [
 ]
 
 const STATS = [
-  { value: '3+',  label: 'Years of experience' },
-  { value: '20+', label: 'Projects completed'  },
-  { value: '15+', label: 'Happy clients'        },
+  { value: 'less than 1 year',  label: 'Years of experience' },
+  { value: '5', label: 'Projects completed as a student college'  },
+  { value: 'Engineer', label: 'Renewable Energy'        },
   { value: '∞',   label: 'Cups of coffee'       },
 ]
 
@@ -58,7 +58,7 @@ export default function About() {
               className="space-y-4 text-ink-soft font-body text-base leading-relaxed mb-10"
             >
               <p>
-                Renewable Energy Engineering graduate from Polije, deeply focused on precision engineering, system efficiency, and practical problem-solving.
+                Renewable Energy Engineering graduate from POLIJE, deeply focused on precision engineering, system efficiency, and practical problem-solving.
               </p>
               <p>
                 I thrive on bridging solid <span className="text-caramel font-medium italic">engineering fundamentals</span> with an active curiosity for the ever-evolving tech landscape, constantly staying up to date with the latest industry innovations.

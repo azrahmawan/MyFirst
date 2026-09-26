@@ -3,7 +3,6 @@ import { motion, useInView } from 'framer-motion'
 import { FiMail, FiSend, FiMapPin, FiClock } from 'react-icons/fi'
 
 const INFO = [
-  { icon: FiMail,   label: 'Email',    value: 'hi@azrahmawan.dev', href: 'mailto:hi@azrahmawan.dev' },
   { icon: FiMapPin, label: 'Location', value: 'Indonesia 🇮🇩',      href: null },
   { icon: FiClock,  label: 'Response', value: 'Within 24 hours',   href: null },
 ]

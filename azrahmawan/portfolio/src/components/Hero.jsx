@@ -165,8 +165,8 @@ export default function Hero() {
                 transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
                 className="absolute -top-4 -right-6 px-4 py-2 rounded-2xl bg-warm-white shadow-warm border border-cream-200"
               >
-                <p className="font-serif font-bold text-honey text-2xl leading-none">3+</p>
-                <p className="font-sans text-[10px] text-ink-muted leading-tight mt-0.5">years exp.</p>
+                <p className="font-serif font-bold text-honey text-2xl leading-none">Ready</p>
+                <p className="font-sans text-[10px] text-ink-muted leading-tight mt-0.5">To Work</p>
               </motion.div>
 
               {/* Floating badge — projects */}
@@ -175,8 +175,8 @@ export default function Hero() {
                 transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
                 className="absolute -bottom-4 -left-6 px-4 py-2 rounded-2xl bg-warm-white shadow-warm border border-cream-200"
               >
-                <p className="font-serif font-bold text-caramel text-2xl leading-none">20+</p>
-                <p className="font-sans text-[10px] text-ink-muted leading-tight mt-0.5">projects</p>
+                <p className="font-serif font-bold text-caramel text-2xl leading-none">23+</p>
+                <p className="font-sans text-[10px] text-ink-muted leading-tight mt-0.5">Y.O</p>
               </motion.div>
             </div>
           </motion.div>
