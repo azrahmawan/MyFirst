@@ -5,10 +5,10 @@ import { FiExternalLink, FiGithub } from 'react-icons/fi'
 const PROJECTS = [
   {
     id:       1,
-    title:    'Brewed — Coffee Subscription',
-    category: 'Web App',
+    title:    'Web Programming — Web Portofolio ',
+    category: 'Web Development',
     tags:     ['React', 'Tailwind CSS', 'Framer Motion'],
-    desc:     'A subscription e-commerce experience for artisan coffee roasters. Built with warm, editorial design and silky micro-interactions.',
+    desc:     'creating a portfolio website to introduce myself to recruiters or people who simply want to get to know me',
     color:    '#e8a020',
     emoji:    '☕',
     live:     '#',
@@ -17,10 +17,10 @@ const PROJECTS = [
   },
   {
     id:       2,
-    title:    'Folio CMS',
-    category: 'Dashboard',
+    title:    'Document Control',
+    category: 'Project Assistant Support',
     tags:     ['Next.js', 'TypeScript', 'Prisma'],
-    desc:     'A minimal content management dashboard with a focus on clarity and speed. Clean typography, zero clutter.',
+    desc:     'controlling documents related to as-built, administrative, BOM/BOQ, I/O Material, and standardization in the solar power plant sector',
     color:    '#a0522d',
     emoji:    '📋',
     live:     '#',
@@ -29,10 +29,10 @@ const PROJECTS = [
   },
   {
     id:       3,
-    title:    'Nook — Reading Tracker',
-    category: 'Mobile-first',
+    title:    'ESP32 + MQTT - IoT Project',
+    category: 'Personal Project',
     tags:     ['React', 'Zustand', 'CSS Modules'],
-    desc:     'Track your reading list with gentle animations and a tactile, book-like interface designed to feel like home.',
+    desc:     'integrating ESP32 with MQTT to build an IoT project for a monitoring system for a boarding house parking security device',
     color:    '#c9895a',
     emoji:    '📚',
     live:     '#',
@@ -41,10 +41,10 @@ const PROJECTS = [
   },
   {
     id:       4,
-    title:    'Palette Studio',
-    category: 'Design Tool',
-    tags:     ['Vue.js', 'Canvas API'],
-    desc:     'An in-browser colour palette generator built for designers who care about harmony and warmth.',
+    title:    'PV Engineer',
+    category: 'Main Skill',
+    tags:     ['Autocad', 'Microsoft Office', 'Google Workspace'],
+    desc:     'having experience as a drafter, QC for PV system, compliance with standards and cable calculations for PV systems,for a 765 kWp installation',
     color:    '#5c3d2e',
     emoji:    '🎨',
     live:     '#',
@@ -53,9 +53,9 @@ const PROJECTS = [
   },
   {
     id:       5,
-    title:    'Whisper Blog',
-    category: 'CMS / Blog',
-    tags:     ['Next.js', 'MDX', 'Tailwind'],
+    title:    'Community Service Project',
+    category: 'Polije X Pertamina',
+    tags:     ['Autocad'],
     desc:     'A personal blog template with beautiful typography, dark mode, and a cosy reading experience.',
     color:    '#e8a020',
     emoji:    '✍️',
@@ -110,7 +110,7 @@ export default function Projects() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="section-title"
           >
-            Selected projects
+            Projects Experience
           </motion.h2>
           {/* Filter pills */}
           <motion.div
